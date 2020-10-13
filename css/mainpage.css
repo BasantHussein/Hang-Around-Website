@@ -1,0 +1,324 @@
+*, body {
+    margin: 0px ;
+    padding: 0px ;
+    list-style-type: none ;
+}
+body {
+    
+}
+.container {
+    width: 1200px  ;
+    margin: auto;
+}
+.container2 {
+    width: 800px ;
+    margin: auto ;
+}
+h2 ,h1 ,h3 {
+    font-family: 'Indie Flower', cursive;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Handlee', cursive;
+}
+span {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+a {
+   font-family: 'Indie Flower', cursive; 
+}
+/* navbar */ 
+.backimg {
+    background: url('../img/coveeer.jpeg') center center fixed no-repeat;
+    background-size: cover ;
+    height: 650px ;
+}
+.navbar {
+    height: 50px ;
+    background-color: rgba(0,0,0,0.1);   
+    width: 100% ;
+    position: fixed ;
+    overflow: hidden ;    
+}
+.navbar h2 {
+    float: left;
+    font-size: 30px ;
+    margin-top: 5px ;
+}
+.navbar ul li {
+    list-style-type: none ;
+    padding-top: 10px ;
+    float: right;
+    padding-left: 45px ;
+    font-size: 20px ;
+}
+.navbar a{
+    text-decoration: none ;
+    color: #000 ;
+}.navbar a:hover {
+    color: #090 ;
+}
+/* search */
+input[type="search"] {
+    width: 120px ;
+    height: 30px ;
+    font-size: 20px ;
+    background-image: url('');
+    background-repeat: no-repeat ;
+    background-position: 10px 8px ;
+    padding: 0 0 0 20px ;
+    border: 2px solid #ccc ;
+    border-radius: 15px ;
+    transition: width 2s ;   
+}
+input[type="search"]:focus {
+    width: 100% ;
+    outline: #080 ;
+    border: 0px ;
+    border-bottom: 1px solid #000 ;
+    border-left: 1px solid #000 ;
+}
+/* About */
+.about {
+    background-color: #FFF ;
+    padding-bottom: 50px ;
+}
+.about h2 {
+    text-align: center ;
+    padding: 50px 0px 15px ;
+}
+.about hr {
+    margin: auto ;
+    width: 30px ;
+    height: 2px ;
+    background-color: black ;
+}
+.about p {
+    padding-top: 15px ;
+    text-align: center ;
+}
+/* slideshow */
+.cycle-slideshow img {
+    width: 100% ;
+    min-height: 500px ;
+    max-height: 500px ;
+}
+.cycle-slideshow {
+    width: 100% ;
+    overflow: hidden ;
+    background-size: cover ;
+}
+/* 
+.cycle-prev ,.cycle-next {
+    font-size: 500% ;
+    color: #FFF ;
+    display: block ;
+    position: absolute ;
+    top :50% ;
+    z-index: 999 ;
+    cursor: pointer ;
+}
+.cycle-prev {left:5%}
+.cycle-next {right: 5%} */
+.cycle-pager{
+    width: 100% ;
+    position: absolute ;
+    text-align: center ;
+    z-index: 999 ;
+    top: 470px ; ;   
+}
+.cycle-pager span {
+    width: 15px ;
+    height: 15px ;
+    border: 1px solid #FFF ; 
+    border-radius: 50% ; 
+    display: inline-block ;
+    margin: 0 5px ;
+    text-indent: 100% ;
+    white-space: nowrap ;
+    cursor: pointer ;   
+}
+.cycle-pager-active {background-color: #FFF}
+/* car cover */
+.coverSpace {
+    margin-top: 50px ;
+    height: 400px ;
+    background: url('../img/pexels-photo-165600 (1).jpeg') center center fixed no-repeat ;
+    background-size: cover ;
+}
+/* work */ 
+.work {
+    text-align: none ;
+    margin-top: 50px ;
+    width: 100% ;
+    height: 300px ;
+    background-color: rgb(249,249,249) ;
+}
+.partt {
+    width: 22% ;
+    float: left ;
+    color: #FFF ;
+}
+.partt img {
+    width: 60px ;
+    height: 60px ;
+    padding-right: 30px ;
+    padding-top: 120px ;
+    float: left ;   
+}
+.work .partt h2 {
+    padding-top: 100px ;
+    color: #080 ;
+}
+.work .partt p {
+    color: #090 ;
+}
+/* clear function */
+.clear {
+    clear: both ;
+}
+/* best rate */ 
+.bestRate .titleOfBestRate h1 {
+    text-align: center ;
+    padding-bottom: 20PX ;
+    padding-top: 30px ;
+}
+.bestRate .titleOfBestRate hr {
+    margin: auto ;
+    width: 20px ;
+    height: 2px ;
+    background-color: #000 ;
+    margin-bottom: 10px ;
+}
+.bestRate .rate {
+    width: 31% ;
+    float: left ;
+    margin-left: 20px ;
+}
+.bestRate .rate h2 ,.bestRate2 .rate2 h2 {
+    text-align: center ;
+    margin: 10px 0px ;
+    
+}
+.bestRate .rate hr ,.bestRate2 .rate2 hr {
+    margin: auto ;
+    margin-bottom: 10px ;
+    width: 30px ;
+    height: 2px ;
+    background-color: #000 ;
+}
+.bestRate .rate img ,.bestRate2 .rate2 img {
+    width: 300px ;
+    height: 300px ;
+    border-radius: 100% ;
+    margin-left: 50px ;
+    margin-top: 30px ;
+}
+.bestRate .rate p ,.bestRate2 .rate2 p {
+    text-align: center ;
+}
+.bestRate2 .rate2 {
+    width: 47% ;
+    float: left ;
+    margin-left: 20px ;
+}
+/* the party  */ 
+.amr {
+    margin-top: 40px ;
+    height: 450px ;
+    background-color: rgb(249,249,249) ;
+    padding-top: 50px ;
+}
+.amr iframe {
+    width: 500px ;
+    height: 400px ;
+    padding-right: 30px ;
+    border-radius: 50px ;
+    float: left ;
+}
+.amr h2 {
+    text-align: center ;
+    padding-bottom: 30px ;
+}
+.amr p {
+    font-family: 'Great Vibes', cursive;
+    text-align: center ;
+}
+.amr input {
+    margin: 20px 0 20px 250px ; 
+    height: 40px ;
+    width: 200px ;
+    border: 1px solid  #000 ;
+    border-radius: 25px ;
+    font-size: 20px ;
+    outline: none ;
+}
+.amr input:hover {
+    background-color: #DDD ;
+    color: #333 ;
+}
+/* footer */
+.footer {
+    margin-top: 50px ;
+    width: 100% ;
+    height: 380px ;
+    padding-top: 55px ;
+    background-color: rgb(37,47,49);
+}
+.part {
+    line-height: 35px ;
+    width: 25% ;
+    float: left ;
+    color: #FFF ;
+}
+.part h3 {
+    padding-bottom: 15px ;
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.part .right {
+    padding-top: 190px ;
+    font-size: 12px ;
+}
+.part p ,.part span{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #DDD ;
+}
+
+.part img {
+    width: 15px ;
+    height: 15px ;
+    padding-right: 10px ;
+    
+}
+.part .app {
+    width: 100px ;
+    height: 40px ;
+    padding-top: 15px ;
+    border-radius: 10px ;
+}
+.part input {
+    width: 165px ;
+    height: 40px ;
+    border-radius: 5px ;
+    padding-left: 13px ;
+    outline: none ;
+}
+
+.part a {
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none ;
+    color: #DDD  ;
+}.part a:hover {
+    color: #FFF ;
+}
+.part .send{
+    width: 50px ;
+    height: 40px ;
+}

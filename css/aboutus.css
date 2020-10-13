@@ -1,0 +1,259 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(../img/BB.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    width: 1200px ;
+    margin: auto ;
+}
+h1
+{   padding: 0;
+    margin: -400px 0 90px;
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+h2  ,h3 {
+    font-family: 'Indie Flower', cursive;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Audiowide', cursive;
+font-family: 'Handlee', cursive;
+}
+span {
+    
+    font-family: 'Pacifico', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+a {
+   font-family: 'Indie Flower', cursive; 
+}
+/* navbar */ 
+.backimg {
+    background: url('../img/man-person-people-emotions.jpg') center center fixed no-repeat;
+    background-size: cover ;
+    height: 650px ;
+}
+
+.navbar {
+    height: 50px ;
+    background-color: rgba(0,0,0,0.1);
+    
+    width: 100% ;
+    position: fixed ;
+    overflow: hidden ;    
+}
+
+.navbar h2 {
+    float: left;
+    font-size: 30px ;
+    margin-top: 5px ;
+}
+
+.navbar ul li {
+    list-style-type: none ;
+    padding-top: 10px ;
+    float: right;
+    padding-left: 45px ;
+    font-size: 20px ;
+}
+
+.navbar a{
+    text-decoration: none ;
+    color: #000 ;
+}.navbar a:hover {
+    color: #090 ;
+}
+
+/* search */
+input[type="search"] {
+    width: 120px ;
+    height: 30px ;
+    font-size: 20px ;
+    background-image: url('');
+    background-repeat: no-repeat ;
+    background-position: 10px 8px ;
+    padding: 0 0 0 20px ;
+    border: 2px solid #ccc ;
+    border-radius: 15px ;
+    transition: width 2s ;
+    
+}
+input[type="search"]:focus {
+    width: 100% ;
+    outline: #080 ;
+    border: 0px ;
+    border-bottom: 1px solid #000 ;
+    border-left: 1px solid #000 ;
+}
+.block1 h2 ,.block1 p ,.block2 h2 ,.block2 p ,.block3 h2 ,.block3 p  
+{
+    text-align: center ;
+}
+.block {
+    margin-top: 450px ;
+}
+.block1
+{
+    width: 100%;
+    height: 400px;
+    display: block;
+    
+    margin-top: -60px;
+    margin-bottom: -50px;
+}
+.block2
+{
+    width: 100%;
+    height: 350px;
+    display: block;
+      
+    margin-top: 80px;
+}
+.block3
+{
+    width: 100%;
+    height: 390px;
+    display: block;
+      
+    margin-top: 30px;
+    margin-bottom: -50px;
+}
+.kolo
+{
+    margin-top: 190px;
+}
+
+.photo
+{   
+    background-repeat: no-repeat;
+    background-position: 70%;
+    border-radius: 50%;
+    
+    width: 200px;
+    height: 230px;
+    margin: -60px 25px -15px 1px;
+    padding: -3px;
+        
+}
+.socialMedia img {
+    width: 40px ;
+    height: 40px ;
+    padding-right: 0px ;
+  
+}
+.socialMedia {
+    margin: 5px 1px ;
+    text-align: center;
+    
+}
+.asmaa
+{
+    
+    width: 200px;
+    border-radius: 10px; 
+    margin: 30px 150px 0px 150px ;
+    float: left;
+    
+}
+.aya
+{ 
+    width: -40px;
+    border-radius: 10px; 
+    margin: 30px 80px;
+    float: right; }
+
+.hasan
+{   
+    width: 200px;
+    border-radius: 10px; 
+    margin: auto;
+    display: block;  
+}
+.hasnaa
+{  
+    width: 200px;
+    border-radius: 10px; 
+    margin: 30px 150px 0px 150px ;
+    float: left; }
+.basant
+{  
+    width: -40px;
+    border-radius: 10px; 
+    margin: 30px 80px;
+    float: right; 
+   
+    
+}
+
+
+/* footer */
+.footer {
+    margin-top: 50px ;
+    width: 100% ;
+    height: 380px ;
+    padding-top: 55px ;
+    background-color: rgb(37,47,49); */
+}
+.part {
+    line-height: 35px ;
+    width: 25% ;
+    float: left ;
+    color: #FFF ;
+}
+.part h3 {
+    padding-bottom: 15px ;
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.part .right {
+    padding-top: 190px ;
+    font-size: 12px ;
+}
+.part p ,.part span{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #DDD ;
+}
+
+.part img {
+    width: 15px ;
+    height: 15px ;
+    padding-right: 10px ;
+    
+}
+.part .app {
+    width: 100px ;
+    height: 40px ;
+    padding-top: 15px ;
+    border-radius: 10px ;
+}
+.part input {
+    width: 165px ;
+    height: 40px ;
+    border-radius: 5px ;
+    padding-left: 13px ;
+    outline: none ;
+}
+
+.part a {
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none ;
+    color: #DDD  ;
+}.part a:hover {
+    color: #FFF ;
+}
+.part .send{
+    width: 50px ;
+    height: 40px ;
+}

@@ -1,0 +1,210 @@
+*,  body {
+      padding: 0;
+      margin: 0;
+}
+body {
+    background-color: rgba(0,0,0,0.1);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    
+}
+/*
+body {
+    background: url(../img/logo.jpg) center center fixed no-repeat ;
+} */
+
+h2 ,h1 ,h3 {
+    font-family: 'Indie Flower', cursive;
+}
+p {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Handlee', cursive;
+}
+span {
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+a {
+   font-family: 'Indie Flower', cursive; 
+}
+/* navbar */ 
+.backimg {
+    background: url('../img/1.jpg') center center fixed no-repeat;
+    background-size: cover ;
+    height: 650px ;
+    margin-bottom: 30px ;
+}
+
+.navbar {
+    height: 50px ;
+    background-color: rgba(0,0,0,0.1);
+    
+    width: 100% ;
+    position: fixed ;
+    overflow: hidden ;    
+}
+
+.navbar h2 {
+    float: left;
+    font-size: 30px ;
+    margin-top: 5px ;
+}
+
+.navbar ul li {
+    list-style-type: none ;
+    padding-top: 10px ;
+    float: right;
+    padding-left: 45px ;
+    font-size: 20px ;
+}
+
+.navbar a{
+    text-decoration: none ;
+    color: #000 ;
+}.navbar a:hover {
+    color: #3498db;
+ ;
+}
+
+/* search */
+input[type="search"] {
+    width: 120px ;
+    height: 30px ;
+    font-size: 20px ;
+    background-image: url('');
+    background-repeat: no-repeat ;
+    background-position: 10px 8px ;
+    padding: 0 0 0 20px ;
+    border: 2px solid #ccc ;
+    border-radius: 15px ;
+    transition: width 2s ;
+    
+}
+
+input[type="search"]:focus {
+    width: 100% ;
+    outline: #080 ;
+    border: 0px ;
+    border-bottom: 1px solid #000 ;
+    border-left: 1px solid #000 ;
+}
+
+
+/*  -----------   cafes   ------------      */
+
+
+
+.details {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+.details img {
+    width: 100%;
+    height: 600px;
+}
+ .right{
+    background-color: #fff;
+    height: 600px;
+    width:  50%;
+    float: right;
+     text-align: center;
+}
+.right h1 ,.left h1 {
+    padding-top: 30px ;
+}
+ .butt {
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+     margin-top: 15px ;
+}
+ .butt:hover {
+    transition: 1s;
+    background-color: #3498db;
+}
+ .left {
+    background-color: #fff;
+    height: 600px;
+    width:  50%;
+    float: left;
+    text-align: center;
+}
+ 
+
+/* clear function */
+.clear {
+    clear: both ;
+}
+
+
+/* footer */
+.footer {
+    margin-top: 50px ;
+    width: 100% ;
+    height: 380px ;
+    padding-top: 55px ;
+    background-color: rgb(37,47,49); */
+}
+.part {
+    line-height: 35px ;
+    width: 25% ;
+    float: left ;
+    color: #FFF ;
+}
+.part h3 {
+    padding-bottom: 15px ;
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+.part .rightt {
+    padding-top: 190px ;
+    font-size: 12px ;
+}
+.part p ,.part span{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    color: #DDD ;
+}
+
+.part img {
+    width: 15px ;
+    height: 15px ;
+    padding-right: 10px ;
+    
+}
+.part .app {
+    width: 100px ;
+    height: 40px ;
+    padding-top: 15px ;
+    border-radius: 10px ;
+}
+.part input {
+    width: 165px ;
+    height: 40px ;
+    border-radius: 5px ;
+    padding-left: 13px ;
+    outline: none ;
+}
+
+.part a {
+     font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none ;
+    color: #DDD  ;
+}.part a:hover {
+    color: #FFF ;
+}
+.part .send{
+    width: 50px ;
+    height: 40px ;
+}
